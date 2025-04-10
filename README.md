@@ -60,3 +60,109 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ## 📁 Project Structure
 
+```
+Heart_Prediction_Project/
+│
+├── app.py                  # Flask app
+├── train_best_model.py     # ML model training script
+├── model.pkl               # Saved best model
+├── requirements.txt
+├── Procfile                # Required for Render deployment
+├── README.md
+│
+├── data/
+│   └── Heart Prediction Quantum Dataset.csv
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   └── heart-animation.gif (optional)
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/Heart_Prediction_Project.git
+cd Heart_Prediction_Project
+```
+
+### 2. Create and Activate Virtual Environment
+```bash
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Train the Model (Optional)
+```bash
+python train_best_model.py
+```
+
+### 5. Run the Web App
+```bash
+python app.py
+```
+
+### 6. Visit the App
+Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+## 🚀 Deploying to Render (Free Hosting)
+
+1. **Add a `Procfile`** (already included):
+   ```
+   web: python app.py
+   ```
+
+2. **Push code to GitHub**
+
+3. **Go to [https://render.com](https://render.com)** → Click **"New Web Service"**
+
+4. Connect your GitHub repo
+
+5. Set:
+   - **Build command:** `pip install -r requirements.txt`
+   - **Start command:** `python app.py`
+   - **Region:** Asia → Singapore (closest to India)
+
+6. Click **Deploy** and wait for your public URL.
+
+---
+
+## 📷 Screenshots
+
+_Add UI screenshots here if you'd like!_
+
+---
+
+## ⚠️ Disclaimer
+
+> This project is built using a machine learning-based approach for **educational and demonstration purposes** only. It is **not a substitute for professional medical advice**. Please consult a qualified doctor for any health concerns.
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**  
+- GitHub: [yourusername](https://github.com/yourusername)  
+- LinkedIn: [linkedin.com/in/yourlinkedin](https://linkedin.com/in/yourlinkedin)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
