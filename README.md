@@ -1,29 +1,62 @@
-# ❤️ Heart Disease Prediction Web App
+# ❤️ Heart Disease Prediction with Multiple Classification Models
 
-An end-to-end machine learning web application built using **Flask**, designed to predict the risk of heart disease based on user input. The app uses several classification models and selects the best-performing one automatically. It features a modern, animated, and responsive UI and is fully deployed using Render.
+This project combines multiple machine learning classification models with a modern, responsive web interface built using Flask to predict the presence of heart disease.
 
----
-
-## 📌 Features
-
-- Predicts heart disease risk using user input features.
-- Trains multiple ML models and selects the best automatically.
-- Clean, responsive, and animated UI using Bootstrap 5.
-- Dynamic background color based on prediction result.
-- Inputs retain values after submission; includes a "Clear All" button.
-- Disclaimer for medical caution.
+The app provides an end-to-end solution—from training the models to deploying the prediction tool online.
 
 ---
 
-## 🧠 Input Features
+## 🧠 Models Used
 
-| Feature Name             | Description                             |
-|--------------------------|-----------------------------------------|
-| Age                     | Age in years                            |
-| Gender                  | 0 = Female, 1 = Male                    |
-| Blood Pressure          | Normal ~120/80 mmHg                     |
-| Cholesterol             | Desirable < 200 mg/dL                   |
-| Heart Rate              | Normal: 60–100 bpm                      |
-| Quantum Pattern Feature | Engineered feature (Range: -2.08 to 2.10) |
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- K-Nearest Neighbors  
+- Support Vector Machine (SVM)  
+- Naive Bayes  
+- Gradient Boosting  
+- Neural Network (MLP)
+
+> The model with the highest F1-Score and accuracy is saved and used in the Flask app.
 
 ---
+
+## 📊 Dataset
+
+**File:** `Heart Prediction Quantum Dataset.csv`
+
+### Features:
+- **Age**
+- **Gender** (0 = Female, 1 = Male)
+- **BloodPressure**
+- **Cholesterol**
+- **HeartRate**
+- **QuantumPatternFeature**
+- **Target**: HeartDisease (0 = No, 1 = Yes)
+
+---
+
+## 🧪 ML Workflow
+
+1. Load and preprocess the dataset  
+2. Train multiple models  
+3. Evaluate with Accuracy, Precision, Recall, F1-Score  
+4. Compare models with visualizations  
+5. Save the best-performing model as `model.pkl`
+
+---
+
+## 🌐 Web App Features
+
+- Built with **Flask + Bootstrap 5**
+- Vertical input form with animations
+- Dynamic background color (green for low risk, red for high)
+- Responsive layout for mobile and desktop
+- Inputs retain values after prediction
+- Includes a **"Clear All"** button
+- Medical disclaimer included
+
+---
+
+## 📁 Project Structure
+
