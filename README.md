@@ -6,7 +6,7 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 - Logistic Regression  
 - Decision Tree  
@@ -21,7 +21,7 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **File:** `Heart Prediction Quantum Dataset.csv`
 
@@ -36,7 +36,7 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ---
 
-## 🧪 ML Workflow
+## ML Workflow
 
 1. Load and preprocess the dataset  
 2. Train multiple models  
@@ -46,7 +46,7 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ---
 
-## 🌐 Web App Features
+## Web App Features
 
 - Built with **Flask + Bootstrap 5**
 - Vertical input form with animations
@@ -58,7 +58,7 @@ The app provides an end-to-end solution—from training the models to deploying 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Heart_Prediction_Project/
