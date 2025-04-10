@@ -68,17 +68,22 @@ Heart_Prediction_Project/
 ├── model.pkl               # Saved best model
 ├── requirements.txt
 ├── Procfile                # Required for Render deployment
+├── .render.yaml            # Render's optional configuration file
+├── .gitignore
 ├── README.md
 │
 ├── data/
 │   └── Heart Prediction Quantum Dataset.csv
 │
+├── notebooks/
+│   ├── EDA.ipynb
+│   └── models.ipynb
+
 ├── templates/
 │   └── index.html
 │
 ├── static/
 │   ├── style.css
-│   └── heart-animation.gif (optional)
 ```
 
 ---
