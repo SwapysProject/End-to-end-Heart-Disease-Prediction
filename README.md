@@ -141,28 +141,9 @@ Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 6. Click **Deploy** and wait for your public URL.
 
 ---
-
-## 📷 Screenshots
-
-_Add UI screenshots here if you'd like!_
-
----
-
 ## ⚠️ Disclaimer
 
 > This project is built using a machine learning-based approach for **educational and demonstration purposes** only. It is **not a substitute for professional medical advice**. Please consult a qualified doctor for any health concerns.
-
 ---
 
-## 👨‍💻 Author
-
-**Your Name**  
-- GitHub: [yourusername](https://github.com/yourusername)  
-- LinkedIn: [linkedin.com/in/yourlinkedin](https://linkedin.com/in/yourlinkedin)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
