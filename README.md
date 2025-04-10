@@ -1,45 +1,63 @@
-# Heart Disease Prediction with Multiple Classification Models
+# ❤️ Heart Disease Prediction Web App
 
-This project applies multiple machine learning classification models to predict the presence of heart disease based on features such as age, blood pressure, cholesterol, and a quantum-based feature.
+An end-to-end **Heart Disease Prediction** web application built using **Machine Learning** and **Flask**. This project takes in essential medical inputs and predicts whether an individual is at high or low risk of heart disease. The model was trained on a custom dataset featuring a unique `QuantumPatternFeature`, achieving an accuracy of **95%**.
 
-## Models Used
+---
 
-- Logistic Regression  
-- Decision Tree  
-- Random Forest  
-- K-Nearest Neighbors  
-- Support Vector Machine (SVM)  
-- Naive Bayes  
-- Gradient Boosting  
-- Neural Network (MLP)
+## 🔍 Features
 
-## Dataset
+- 📊 ML pipeline trained on multiple classifiers
+- ✅ Automatically selects the best model based on accuracy
+- 💡 Clean and modern UI with animations
+- 🧠 Predicts risk of heart disease from 6 key health features
+- 🎨 Dynamic theme based on prediction result
+- 🌐 Deployed using Render (free & simple deployment)
 
-The dataset used is `Heart Prediction Quantum Dataset.csv` with the following features:
-- Age
-- Gender
-- BloodPressure
-- Cholesterol
-- HeartRate
-- QuantumPatternFeature
-- Target: HeartDisease (0 = No, 1 = Yes)
+---
 
-## Steps
+## 🚀 Technologies Used
 
-1. Load and preprocess the dataset  
-2. Train each model individually  
-3. Evaluate with Accuracy, Precision, Recall, and F1-Score  
-4. Display results in a comparative table  
-5. Visualize confusion matrices for all models  
+- Python 3
+- Scikit-learn
+- Pandas
+- NumPy
+- Flask (Backend & API)
+- Bootstrap 5 (Frontend)
+- HTML/CSS
+- Render (Deployment)
 
-## Best Performing Models
+---
 
-Logistic Regression and Random Forest achieved the highest F1-Scores and accuracy on this dataset.
+## 🧪 ML Model & Features
 
-## Requirements
+### Input Features:
+- `Age` (in years)
+- `Gender` (0 = Female, 1 = Male)
+- `BloodPressure` (in mmHg)
+- `Cholesterol` (mg/dL)
+- `HeartRate` (bpm)
+- `QuantumPatternFeature` (engineered numerical feature)
 
-To install all required packages, use the provided `requirements.txt` file:
+### Model Training:
+- Logistic Regression
+- Random Forest
+- SVM
+- KNN
+- XGBoost  
+✅ The best model is **automatically selected** and saved using **joblib**.
 
-```bash
-pip install -r requirements.txt
+---
+
+## 🖥️ App Preview
+
+![UI Preview](https://your-screenshot-url.com) *(optional: add preview gif or image)*
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/heart-disease-predictor.git
+   cd heart-disease-predictor
 
